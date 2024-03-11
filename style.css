@@ -1,0 +1,70 @@
+body {
+  width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  border: 1px solid black;
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  margin: 1;
+  color: black;
+  background-color: azure;
+  border: solid 4px lightslategrey;
+  width: 220px;
+  text-shadow: 3px 3px 1px slategrey;
+  text-align: center;
+}
+
+h1:hover  {
+  color: tan;
+}
+
+h2 {
+  text-shadow: 3px 3px 1px grey;
+}
+
+ul {
+  color: azure;
+  height: 100px;
+  width: 150px;
+}
+
+ol {
+  color: azure;
+  height: 100px;
+  width: 150px;
+}
+
+li {
+  border: solid 2px lightgrey;
+  border-radius: 25px;
+}
+
+p {
+  background-color: azure;
+  width: 600px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bracket {
+}
+
+a:hover {
+  color: purple;
+}
+
+ol,
+ul,
+li,
+p { 
+  line-height: 1;
+  letter-spacing: 1px;
+}
